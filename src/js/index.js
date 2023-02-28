@@ -52,6 +52,6 @@ ReactDOM.render(
     <SecondsCounter centenaSeconds={centenaSeconds}  milesSeconds={milesSeconds} diezmilesSeconds={diezmilesSeconds} decenaSeconds={decenaSeconds} seconds={tiempoSegundos} cienmilesSeconds={cienmilesSeconds} />,
     document.querySelector("#app")
   );
-}, 100);
+}, 1000);
 
 

@@ -26,6 +26,10 @@ const SecondsCounter = (props) => {
             {" "}
             {props.diezmilesSeconds}{" "}
           </div>
+          <div className="col btn btn-secondary mx-1 py-4">
+            {" "}
+            {props.milesSeconds}{" "}
+          </div>
        
           <div className="col btn btn-secondary mx-1 py-4">
             {" "}
