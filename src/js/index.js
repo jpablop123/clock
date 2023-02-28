@@ -23,7 +23,7 @@ setInterval(() => {
     tiempoSegundos = 0
     decenaSeconds++
   }
-  if(decenaSeconds % 10 == 0 && decenaSeconds != 0){
+  if(decenaSeconds % 6 == 0 && decenaSeconds != 0){
     decenaSeconds = 0
     centenaSeconds++
     
@@ -33,7 +33,7 @@ setInterval(() => {
         milesSeconds++  }
 
 
-    if(milesSeconds % 10 == 0 && milesSeconds != 0){
+    if(milesSeconds % 6 == 0 && milesSeconds != 0){
         milesSeconds = 0
         diezmilesSeconds++  }
 

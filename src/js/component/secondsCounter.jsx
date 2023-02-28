@@ -14,32 +14,32 @@ const SecondsCounter = (props) => {
     <div className="p-1  bg-dark text-white  ">
       <div className="container mt-15" >
         <div className="row" >
-          <div className="col btn btn-secondary mx-1 py-4">
+          <div className="col-sm btn btn-secondary mx-1 py-4">
             <i className="fa-solid fa-clock"></i>{" "}
           </div>
 
-          <div className="col btn btn-secondary mx-1 py-4">
+          <div className="col-sm btn btn-secondary mx-1 py-4">
             {" "}
             {props.cienmilesSeconds}{" "}
           </div>
-          <div className="col btn btn-secondary mx-1 py-4">
+          <div className="col-sm btn btn-secondary mx-1 py-4">
             {" "}
             {props.diezmilesSeconds}{" "}
           </div>
-          <div className="col btn btn-secondary mx-1 py-4">
+          <div className="col-sm btn btn-secondary mx-1 py-4">
             {" "}
             {props.milesSeconds}{" "}
           </div>
        
-          <div className="col btn btn-secondary mx-1 py-4">
+          <div className="col-sm btn btn-secondary mx-1 py-4">
             {" "}
             {props.centenaSeconds}
           </div>
-          <div className="col btn btn-secondary mx-1 py-4">
+          <div className="col-sm btn btn-secondary mx-1 py-4">
             {" "}
             {props.decenaSeconds}{" "}
           </div>
-          <div className="col btn btn-secondary mx-1 py-4"> {props.seconds} </div>
+          <div className="col-sm btn btn-secondary mx-1 py-4"> {props.seconds} </div>
         </div>
       </div>
       </div>
